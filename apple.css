@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-size: 20px; 
+	font-family: 'Montserrat', sans-serif;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+}
+header {
+    padding-left: 150px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: black;
+    font-size: 0.75em;
+}
+li img {
+    width: 18px;
+}
+li > a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+li > a:hover {
+    opacity: 1;
+}
+.first {
+    text-align: center;
+    padding-top: 20px;
+}
+h1 {
+    font-size: 60px;
+}
+.theBest {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+div > a {
+    font-size: 22px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.learn {
+    padding-bottom: 30px;
+}
+.all-button a:hover {
+    color: black;
+}
+.all-button a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 10px;
+}
+.macImage {
+    width: 650px;
+}
+.second div > img {
+    max-width: 100%;
+}
+.second  > div {
+    text-align: center;
+    background-image: url(./images/home/iphone11-pro-bg.jpg);
+    background-size: cover;
+    height: 623px;
+    background-position: center;
+}
+.second h2 {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 10px;
+}
+.second .proCameras {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.money {
+    color: #868687;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.second {
+    padding-top: 50px;
+    background-color: black;
+}
+.third  > div {
+    text-align: center;
+    background-image: url(./images/home/iphone11-bg.jpg);
+    height: 623px;
+    background-position: center;
+}
+.third {
+    padding-top: 50px;
+}
+.third h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.just {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.watch {
+    text-align: center;
+    background-image: url(./images/home/watch-series-5.jpg);
+    background-position: center;
+    width: 610px;
+    height: 580px;
+    margin-left: 10px;
+    padding-top: 60px;
+}
+.phone {
+    text-align: center;
+    background-image: url(./images/home/apple-card.jpg);
+    background-position: center;
+    width: 610px;
+    height: 580px;
+    margin-right: 10px;
+    padding-top: 60px;
+}
+.fourth {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.text {
+    font-size: 27px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.fifth {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.child {
+    text-align: center;
+    background-image: url(./images/home/apple-tv-background.jpg);
+    background-position: center;
+    width: 610px;
+    height: 580px;
+    margin-left: 10px;
+    padding-top: 60px;
+}
+.Airpods {
+    text-align: center;
+    width: 610px;
+    height: 580px;
+    margin-right: 10px;
+    padding-top: 60px;
+    background-color: black;
+    color: white;
+}
+.airMargin {
+    margin-top: 59px;
+}
+.servant {
+    margin-top: 190px;
+    margin-bottom: 190px;
+}
+.fifth h2 {
+    font-size: 45px;
+}
+.magic {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.sixth {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.newipad {
+    background-image: url(./images/home/new-ipad.jpg);
+    background-position: center;
+    width: 610px;
+    height: 580px;
+    padding-top: 60px;
+    text-align: center;
+    margin-right: 10px;
+}
+.maclaptop {
+    width: 610px;
+    height: 580px;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 60px;
+}
+.macimg {
+    width: 500px;
+}
+.lastP {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.onelastP {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.computer {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.sixth h2 {
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+.lastlink {
+    margin-bottom: 25px;
+}
+footer {
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 0.65em;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer a {
+    font-size: 0.9em;
+    color: #868687;
+}
+.Copyright {
+    display: flex;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+.privacy {
+    display: flex;
+    justify-content:space-between;
+    margin-left: 140px;
+}
+.border {
+    padding: 0 5px;
+    border-right: 1px solid #ccc;
+}
+.trade-in {
+    color: #868687;
+    margin-bottom: 20px;
+}
+.hr {
+    margin-bottom: 18px;
+}
+h4 {
+    padding-left: 10px;
+}
+.underline > div {
+    margin-bottom: 5px;
+}
+.underline > div :hover {
+    text-decoration: underline;
+}
+.more {
+    margin-bottom: 10px;
+}
+.flag-country {
+    display: flex;
+    margin-left: 170px;
+}
+.flag {
+    vertical-align: middle;
+    margin-right: 2px;
+}
+.country {
+    vertical-align: top;
+}
+.no-boarder {
+    border-right: 0px;
+}
+.footer div div div {
+    padding: 5px 0;
+}
