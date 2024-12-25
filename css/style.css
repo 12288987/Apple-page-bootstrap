@@ -29,6 +29,7 @@ header a {
 }
 .first {
   height: 600px;
+  /* padding-top: 200px; */
 }
 .second {
   background-image: url(../images/home/iphone11-pro-bg.jpg);
