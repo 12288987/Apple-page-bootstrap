@@ -173,12 +173,13 @@ footer h4 {
   .newborder {
     border-bottom: none;
   }
-  /* footer {
-    padding-left: 100px;
+  footer {
+    margin: 0 100px;
+    /* padding-left: 100px;
     padding-right: 120px;
     font-size: 0.8em;
-    color: #868687;
-  } */
+    color: #868687; */
+  }
 }
 
 .all-button a:hover {
