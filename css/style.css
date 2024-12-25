@@ -157,7 +157,7 @@ footer h4 {
 }
 @media (min-width: 768px) {
   .navv {
-    width: 900px;
+    width: 100%;
     margin: 0 auto;
   }
   .privacy {
@@ -176,9 +176,12 @@ footer h4 {
   }
   .flag-country {
     display: flex;
-    margin-left: 35px;
+    margin-left: 67px;
     justify-content: space-between;
     color: black;
+  }
+  .country {
+    text-align: right;
   }
   .underline {
     display: block;
@@ -197,6 +200,13 @@ footer h4 {
     padding-right: 120px;
     font-size: 0.8em;
     color: #868687; */
+  }
+}
+
+@media (min-width: 992px) {
+  .navv {
+    width: 80%;
+    /* margin: 0 auto; */
   }
 }
 
