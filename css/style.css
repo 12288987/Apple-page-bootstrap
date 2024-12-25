@@ -31,6 +31,10 @@ header a {
   height: 600px;
   /* padding-top: 200px; */
 }
+.first .inch {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
 .second {
   background-image: url(../images/home/iphone11-pro-bg.jpg);
   background-repeat: no-repeat;
