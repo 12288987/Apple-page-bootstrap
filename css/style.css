@@ -147,7 +147,11 @@ footer h4 {
 }
 .Copyright {
   color: black;
+  /* margin: 0 5px 0 2px; */
 }
+/* .Copyright p {
+  margin-bottom: 0;
+} */
 .more {
   color: black;
 }
@@ -155,24 +159,28 @@ footer h4 {
   color: blue;
   text-decoration: underline;
 }
+.privacy {
+  display: flex;
+  font-size: 0.9em;
+  color: black;
+}
+.privacy div {
+  border-right: 1px solid #868687;
+  height: 13px;
+  margin-right: 8px;
+  padding-right: 8px;
+}
+.privacy .site {
+  border-right: 0;
+}
 @media (min-width: 768px) {
   .navv {
     width: 100%;
     margin: 0 auto;
   }
-  .privacy {
-    display: flex;
-    font-size: 0.9em;
-    color: black;
-  }
   .privacy div {
-    border-right: 1px solid #868687;
-    height: 15px;
     margin-right: 6px;
     padding-right: 6px;
-  }
-  .privacy .site {
-    border-right: 0;
   }
   .flag-country {
     display: flex;
