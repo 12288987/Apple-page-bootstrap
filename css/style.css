@@ -7,14 +7,21 @@
   position: fixed;
   width: 100%;
 }
+header ul li {
+  text-align: center;
+  box-sizing: border-box;
+  width: auto;
+}
 ul {
   list-style: none;
   margin-bottom: 0;
   padding: 5px 0;
+  display: flex;
+  justify-content: space-evenly;
   /* width: ; */
 }
 ul li img {
-  width: 18px;
+  width: 15px;
   color: #868687;
 }
 ul li a {
@@ -149,6 +156,10 @@ footer h4 {
   text-decoration: underline;
 }
 @media (min-width: 768px) {
+  .navv {
+    width: 900px;
+    margin: 0 auto;
+  }
   .privacy {
     display: flex;
     font-size: 0.9em;
