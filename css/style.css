@@ -207,6 +207,9 @@ footer h4 {
   .second, .third {
     width: 100%;
   }
+  .fourth, .fifth, .sixth {
+    max-width: 99% !important;
+  }
   .desk {
     display: block !important; 
   }
