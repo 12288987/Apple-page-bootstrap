@@ -201,6 +201,12 @@ footer h4 {
     text-align: center;
     padding-left: -30px;
   }
+  .macImage {
+    width: auto;
+  }
+  /* .second, .third {
+    width: 100%;
+  } */
   .desk {
     display: block !important; 
   }
