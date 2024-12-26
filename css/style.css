@@ -46,6 +46,9 @@ header a {
   margin: 0 10px;
   /* padding-top: 200px; */
 }
+.fbutton {
+  margin-bottom: 8px;
+}
 .macImage {
   width: 100%;
 }
@@ -192,6 +195,11 @@ footer h4 {
 .desktop {
   display: none;
 }
+.slidedisplay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 @media (min-width: 768px) {
   .navv {
     width: 100%;
@@ -203,9 +211,6 @@ footer h4 {
   }
   .macImage {
     width: auto;
-  }
-  .fbutton {
-    margin-bottom: 8px;
   }
   .second, .third {
     width: 100%;
