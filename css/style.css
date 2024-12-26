@@ -34,6 +34,13 @@ header a {
   text-decoration: none;
   color: white;
 }
+.aplogo {
+  text-align: start;
+  padding-left: 30px;
+}
+.fontas {
+  color: white;
+}
 .first {
   height: 600px;
   /* padding-top: 200px; */
@@ -183,6 +190,10 @@ footer h4 {
   .navv {
     width: 100%;
     margin: 0 auto;
+  }
+  .aplogo {
+    text-align: center;
+    padding-left: -30px;
   }
   .desk {
     display: block !important; 
