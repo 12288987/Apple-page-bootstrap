@@ -204,9 +204,9 @@ footer h4 {
   .macImage {
     width: auto;
   }
-  /* .second, .third {
+  .second, .third {
     width: 100%;
-  } */
+  }
   .desk {
     display: block !important; 
   }
