@@ -43,7 +43,11 @@ header a {
 }
 .first {
   height: 600px;
+  margin: 0 10px;
   /* padding-top: 200px; */
+}
+.macImage {
+  width: 100%;
 }
 .first .inch {
   margin-bottom: 0;
@@ -55,8 +59,9 @@ header a {
   background-size: cover;
   background-position: center;
   height: 600px;
-  width: 100%;
+  width: 94%;
   color: white;
+  margin: 0 auto;
 }
 .third {
   background-image: url(../images/home/iphone11-bg.jpg);
@@ -64,7 +69,8 @@ header a {
   background-size: cover;
   background-position: center;
   height: 600px;
-  width: 100%;
+  width: 94%;
+  margin: 0 auto;
 }
 .watch {
   background-image: url(../images/home/watch-series-5.jpg);
