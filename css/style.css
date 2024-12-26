@@ -204,6 +204,9 @@ footer h4 {
   .macImage {
     width: auto;
   }
+  .fbutton {
+    margin-bottom: 8px;
+  }
   .second, .third {
     width: 100%;
   }
