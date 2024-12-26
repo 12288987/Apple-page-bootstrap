@@ -127,3 +127,19 @@ h4Toggle10.on('click', function() {
         document.getElementById("10h").className = "fa-solid fa-plus mobile 10h";
     };
 })
+
+let options = $('.op');
+let slideop = $('.sli');
+
+options.on('click', function() {
+    if (document.getElementById("op").className === "fa-solid fa-bars op") {
+        document.getElementById("op").className = "fa-solid fa-xmark op";
+        $('section').css('display', 'none');
+        $('footer').css('display', 'none');
+    } else {
+        document.getElementById("op").className = "fa-solid fa-bars op";
+        $('section').css('display', 'block');
+        $('footer').css('display', 'block');
+    };
+    slideop.slideToggle();
+})
